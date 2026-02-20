@@ -39,12 +39,16 @@ pip install django
 
 ```bash
 django-admin startproject counter_project .
+git add .
+git commit -m "Create Django project"
 ```
 
 ## Step 5: Create Django App
 
 ```bash
 python manage.py startapp counter
+git add .
+git commit -m "Create Django app"
 ```
 
 ## Step 6: Configure Settings
@@ -61,6 +65,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'counter',  # Add this line
 ]
+```
+
+```bash
+git add .
+git commit -m "Add counter to django apps in settings"
 ```
 
 ## Step 7: Create Views
@@ -97,6 +106,11 @@ def reset(request):
     return HttpResponse(str(counter_value))
 ```
 
+```bash
+git add .
+git commit -m "Create Django views"
+```
+
 ## Step 8: Configure URLs
 
 ### Project URLs
@@ -110,6 +124,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('counter.urls')),
 ]
+```
+
+
+```bash
+git add .
+git commit -m "Configure URLs"
 ```
 
 ### App URLs
@@ -127,11 +147,18 @@ urlpatterns = [
 ]
 ```
 
+```bash
+git add .
+git commit -m "Create Django app urls"
+```
 ## Step 9: Create Templates Directory
 
 ```bash
 mkdir -p counter/templates/counter
+git add .
+git commit -m "Create templates folder
 ```
+
 
 ## Step 10: Create HTML Template
 
@@ -213,6 +240,12 @@ Create `counter/templates/counter/index.html`:
     </div>
 </body>
 </html>
+```
+
+```bash
+
+git add .
+git commit -m "Create Django template"
 ```
 
 ## Step 11: Run Migrations
