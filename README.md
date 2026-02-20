@@ -7,7 +7,7 @@
   4. Build the app inside your folder with the instructions bellow and the guide.
 
 
-Track changes, add files, commit changes, once the app running create a new branch, edit change:
+Track changes, add files, commit changes, once the app running create a new branch, edit:
 
   * DaisyUI Theme - line 2 `django-counter-app/counter/templates/counter/index.html`
   * Card title adding your name after the first ">" - line 19 `/home/y44k0v/dev/python/django/django-counter-app/counter/templates/counter/index.html`
