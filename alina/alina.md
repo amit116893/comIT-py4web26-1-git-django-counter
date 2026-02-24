@@ -1,5 +1,9 @@
 # Screenshot of My Personalized App Running
-![Alt text](image.png)
+
+
+![alinas-counter](alina-counter.png)
 
 #Screenshot of My Git Logs
-![Alt text](image-1.png)
+
+
+![git-log](git-log.png)
